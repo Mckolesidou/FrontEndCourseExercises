@@ -1,0 +1,32 @@
+h1, h2, h3, h4, p, a {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+p {text-align: justify;
+   }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+  .header {
+    background-color: #DBB7DB;
+    text-align: center;
+    padding: 20px;
+  }
+ 
