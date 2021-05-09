@@ -1,0 +1,40 @@
+table, td {
+    border-bottom: 1px solid rgb(189, 186, 186);
+  }
+table{border-collapse: collapse;}
+
+td {padding: 15px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;}
+th {size: 50px;
+padding: 5px;
+font-family: 'Rubik', sans-serif;}
+
+tr:hover {background-color: #f5f5f5;}
+
+#t01 {
+    width: 50%;
+    background-color: #f1f1c1;
+  }
+
+#t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+#t01 tr:nth-child(odd) {
+    background-color: #fff;
+  }
+#t01 th {
+    color: black;
+    background-color: rgb(233, 175, 175);
+    text-align: center;
+  }
+  #t01 tr:hover {background-color: #ffdfdf;}
+
+  caption {
+    caption-side: bottom;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  a:link {color: #7949af;}
+  a:visited {color: #c89fe4;}
+  a:hover {color: #ce26f0;}
