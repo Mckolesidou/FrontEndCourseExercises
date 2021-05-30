@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="How the Internet works.">
+    <title>How the Internet works</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>How the Internet works</h1>
+
+    <ul>
+        <li><a href="#brief-introduction">Brief introduction to the Internet</a></li>
+        <li><a href="#how-the-internet-works">How the Internet works</a></li>
+        <li><a href="#internet-protocols">Internet Protocols</a></li>
+        <li><a href="#IP">IP Address</a></li>
+        <li><a href="#DNS">DNS</a></li>
+        <li><a href="#packets">PAckets (TCP/UDP)</a></li>
+        <li><a href="#HTTP">HTTP</a></li>
+        <li><a href="#HTML">HTML</a></li>
+        <li><a href="#routers">Routers</a></li>
+      </ul>
+
+    <!-- Brief Introduction to the Internet -->
+    <section id="brief-introduction">
+        <h2>Brief introduction to the Internet</h2>
+        <img src="assets/umberto-FewHpO4VC9Y-unsplash.jpg" alt="Internet image">
+        <p>
+            The Internet is the backbone of the Web, the technical infrastructure that makes the Web possible. At its
+            most basic, the Internet is a large network of computers which communicate all together.
+        </p>
+        <p>
+            <a href="https://en.wikipedia.org/wiki/Internet#History">The history of the Internet is somewhat obscure.</a> It began in the 1960s as a US-army-funded research project,
+            then evolved into a public infrastructure in the 1980s with the support of many public universities and
+            private companies. The various technologies that support the Internet have evolved over time, but the way it
+            works hasn't changed that much: Internet is a way to connect computers all together and ensure that,
+            whatever happens, they find a way to stay connected.
+        </p>
+    </section>
+
+    <!-- How the Internet works -->
+    <section id="how-the-internet-works">
+        <h2>How the Internet works</h2>
+        <img src="/The Front End/How does the Web work/assets/nasa-Q1p7bh3SHj8-unsplash.jpg" alt="the earth from above">
+        <p>
+            Internet is the global system of computer networks that communicate between networks and devices. A network of networks! Linked by a broad array of electronics, wireless and optical networking technologies.
+        </p>     
+    </section>
+
+    <!-- Internet Protocols -->
+    <section id="internet-protocols">
+        <h2>Internet Protocols</h2>
+        <p>
+            Internet protocols are a set of rules for routing and addressing packets of data so that they can travel across networks and arrive to the correct destination. There are protocols for sending packets between devices on the same network (Ethernet), for sending packets from network to network (IP), for ensuring those packets successfully arrive in order (TCP), and for formatting data for websites and applications (HTTP). In addition to these foundational protocols, there are also protocols for routing, testing, and encryption. And there are alternatives to the protocols listed above for different types of content — for instance, streaming video often uses UDP instead of TCP.
+        </p>
+    </section>
+
+    <!-- IP address -->
+    <section id="IP">
+        <h2>IP address</h2>
+        <img src="/The Front End/How does the Web work/assets/ipadrress.jpg" alt="IP address">
+        <p>
+            IP address <b>(Internet Protocol address)</b> is the unique identifier assigned to a device or domain that connects to the Internet. When connected to the Internet the IP address is what alow computers to send and receive information. An IP address is a set of numbers that might look like this: 195.188.87.10.
+        </p>
+    </section>
+
+    <!-- DNS -->
+    <section id="DNS">
+        <h2>DNS</h2>
+        <img src="/The Front End/How does the Web work/assets/dns.jpg" alt="dns image">
+        <p>
+            DNS <b>(Domain Name System)</b> is a directory of names that match with numbers, like a phonebook of the Internet! DNS translates domain names to IP addresses and it eliminates the need for humans to memorize IP addresses.
+        </p>
+    </section>
+
+    <!-- Packets -->
+    <section id="packets">
+        <h2>Packets (TCP/UDP)</h2>
+        <p>
+            TCP and UDP are the two most widely used protocols users interact with everyday. Both built on top of the IP protocol they determine how data is exchanged.
+        </p>
+        <h3>TCP (Transmission control protocol)</h3>
+        <p>
+            TCP reassembles packets and can reliably ensure the integrity of data exchanged over the Internet. No modifications no missing parts.
+        </p>
+        <h3>UDP (USer Datagram Protocol)</h3>
+        <p>
+            The UDP works similarly to TCP but is simpler and faster. UDP does not require the recipient to acknowledge that each packet has been received. That means that any packet tha got lost they are not resend and this enables computers communicate faster but the data received might not exactly match the data send. For this reason UDP is used when speed is preferred over integrity.
+        </p>
+    </section>
+
+    <!-- HTTP -->
+    <section id="HTTP">
+        <h2>HTTP</h2>
+        <img src="/The Front End/How does the Web work/assets/http.jpg" alt="http image">
+        <p>
+            HTTP <b>(Hypertext Transfer Protocol)</b> is used to transfer data over the web. It is part of the Internet protocol suite and defines commands and services used for transmitting webpage data and uses a server - client model such as a home computer, laptop or a mobile device.
+        </p>
+        <p>A client sents an HTTP request to the web.</p>
+        <p>Web server receives request and runs an application to process the request and then returns an HTTP response.</p>
+        <p>The client receives the response.</p>
+    </section>
+
+    <!-- HTML -->
+    <section id="HTML">
+        <h2>HTML</h2>
+        <img src="/The Front End/How does the Web work/assets/html.jpg" alt="html">
+        <p>
+            HTML <b>(Hypertext Markup Language)</b> is the standard markup language for documents designed to b displayed in a web browser. It uses tags to identify different types of content and the purposes they serve to the web page. Basically HTML allows users to create and structure sections, paragraphs, headings and links for webpages and applications.
+        </p>
+    </section>
+
+    <!-- Routers-->
+    <section id="routers">
+        <h2>Routers</h2>
+        <img src="/The Front End/How does the Web work/assets/router.jpg" alt="IP address">
+        <p>
+            Router is a networking device that forwards data packets between computer networks. A packet is typically forwarded from one router to another through networks until they reach their destination. 
+        </p>
+    </section>
+
+</body>
