@@ -1,0 +1,68 @@
+*{box-sizing: border-box}
+
+
+/* Add padding to containers */
+.container {
+    padding: 50px;
+    padding-bottom: 100px;
+    background-color: #e0acf0;
+    text-align: center;
+    width: 50%;
+    box-align:center;
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+    
+
+h2 {color: white;
+text-align: center;}
+
+
+
+/* Full-width input fields */
+input {
+    
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    color:black;
+    
+  }
+  .container label {
+    float:left;
+    width:30%;
+    display: inline-block;
+    margin-right:5px; /* optional */
+    margin-top: 5px;
+    margin-left: 75px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align:right;
+  }
+  .container input {
+    float:left;
+    width:35%; 
+    margin-left: 15px;
+    margin-bottom: 20px ;
+    
+      }
+  
+    button {
+    
+    width:58%;
+    padding: 8px 20px;
+    display: block;
+    margin:auto;
+    margin-right: auto;
+    margin-top:10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;}
+
+      
+          
+        
+  
+    
