@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calories burned</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        // Your JavaScript goes here!
+        let a = 10;
+        const max = 57;
+        const actual = max - 13;
+        percentage = actual / max;
+
+        console.log("Hello, World!")
+        console.log(23 + 97)
+        console.log(1 + 2 + 3 + 4 + 5 + 6)
+        console.log((4 + 6 + 9) / 77)
+
+        console.log(a)
+
+      
+
+
+
+        function calculation() {
+            let weight = document.getElementById("weight").value;
+            let height = document.getElementById("height").value;
+            let velocity = document.getElementById("velocity").value;
+
+            console.log(weight)
+            console.log(height)
+            console.log(velocity)
+
+
+            let calories = ((0.035 * weight) + ((velocity ** 2) / height)) * 0.029 * weight;
+
+
+            document.getElementById("result").innerHTML = "You burn " + calories.toFixed(4) + " per minute";
+            event.preventDefault();
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("btn").addEventListener("click", calculation)
+        });
+    </script>
+    <form action="" class="container">
+        <h2>Calculate the number of calories burned walking</h2>
+        <div>
+            <label for="weight">Weight in kgs</label>
+            <input id="weight" placeholder="Please enter your weight in kg">
+        </div>
+        <div>
+            <label for="height">Height in m</label>
+            <input id="height" placeholder="Please enter your height in m">
+        </div>
+        <div>
+            <label for="Velocity">Velocity in m/s</label>
+            <input id="velocity" placeholder="Please enter your velocity in m/s">
+        </div>
+        <div>
+            <button id="btn">Click to calculate calories</button>
+            <button type="reset"><b>Clear Form</b></button>            
+        </div>
+    </form>
+    <p id="result" class="container"></p>
+
+</body>
+
+</html>
