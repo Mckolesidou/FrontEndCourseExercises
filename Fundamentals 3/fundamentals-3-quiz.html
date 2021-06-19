@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 500%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color:rgb(250, 124, 250)">Functions are fun!</h1>
+    <script>
+        // 1) Function Declaration 
+        function add9(number) {
+            return number+9;
+        }
+        console.log(add9(10))
+
+        // 2) Function Expression
+        const multiplyNum = function (num1,num2) {
+            return num1*num2;
+        }
+        console.log(multiplyNum(12,10))
+
+        // 3) Arrow Function
+        let capitalizeStr = (str) => {
+            let allLowerCase = str.toLowerCase();
+            let finalStr = allLowerCase.charAt(0).toUpperCase()+allLowerCase.slice(1);
+            return finalStr;
+        }
+        console.log(capitalizeStr("FuNcTiOnS aRe FuN!"))
+
+        // 4) Function Declaration
+        function lastLetter(str) {
+            return str.slice(-1);
+        }
+        console.log(lastLetter("Fun Functions"))
+
+        // 5) Function Declaration
+        function average(num1,num2,num3) {
+            return (num1+num2+num3)/arguments.length;
+        }
+        console.log(average(1,2,3))
+
+        // 6) Function Declaration
+        function greaterNum(num1,num2) {
+            if (num1>num2){
+                return num1;
+            } else {
+                return num2;
+            }
+        }
+        console.log(greaterNum(0,5))
+        
+    </script>
+</body>
+
+</html>
